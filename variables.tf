@@ -10,7 +10,7 @@ variable "access_key" {
 }
 
 variable "secret_key" {
-  default = "ss"
+  default = "aa"
 }
 
 variable "arn_lambda" {
