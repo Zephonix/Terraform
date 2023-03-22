@@ -2,7 +2,7 @@
 //APIGateway Creation
 --------------*/
 resource "aws_api_gateway_rest_api" "api" {
-  name        = "terraformAPI"
+  name        = "terraformAPII"
   description = "created from terraform"
   endpoint_configuration {
     types = ["REGIONAL"]
